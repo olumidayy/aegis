@@ -22,7 +22,7 @@ const config = {
 
   dbName: process.env.DB_NAME,
 
-  port: process.env.PORT || 4000,
+  port: Number(process.env.PORT || 4000),
 
 };
 
