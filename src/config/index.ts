@@ -22,6 +22,8 @@ const config = {
 
   dbName: process.env.DB_NAME,
 
+  port: process.env.PORT || 4000,
+
 };
 
 const keys = Object.keys(config);
