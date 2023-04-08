@@ -5,6 +5,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 const envFound = dotenv.config();
 if (envFound.error) {
+  console.log(process.env.PAYSTACK_SECRET_KEY);
   throw new Error("Couldn't find .env file.");
 }
 
