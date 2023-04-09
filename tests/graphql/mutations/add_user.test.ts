@@ -1,6 +1,6 @@
 import { ApolloServer } from '@apollo/server';
 import { assert } from 'console';
-import connection from '../../../src/db/config';
+import connection from '../utils/connection';
 import resolvers from '../../../src/graphql/resolvers';
 import typeDefs from '../../../src/graphql/typedefs';
 
